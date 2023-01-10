@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root{
+    --bs-black: #232425;
+    --bs-ocean: #3f54d1;
+    --bs-sky: #5180e2;
+    --bs-coral: #15cdcb;
+    --bs-aqua: #4fe0b5 ;
+}
+.margin-not {
+    margin: 0;
+}
+.border-not{
+    outline: none;
+}
+.navbar{
+    border-bottom: 3px solid rgb(238, 238, 238);
+
+}
+.line-aqua:hover{
+    border-bottom: 2px solid var(--bs-aqua);
+}
