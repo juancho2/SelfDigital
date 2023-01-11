@@ -37,6 +37,9 @@
     background: rgb(35,36,37);
     background: linear-gradient(110deg, rgba(35,36,37,1) 0%, rgba(63,84,209,1) 35%, rgba(21,205,203,1) 61%, rgba(79,224,181,1) 100%);
 }
+.container-home aside{
+    width: 40%;
+}
 .Centrar{
     margin-left: auto;
     margin-right: auto;
@@ -74,4 +77,16 @@
 }
 .card img{
     width: 180px;
+}
+.section-product img{
+    width: 400px;
+}
+.section-product article{
+    width: 50vw;
+    padding: 100px 40px;
+}
+
+.linear{
+    display: flex;
+    justify-content: space-evenly;
 }
